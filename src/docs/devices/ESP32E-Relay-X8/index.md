@@ -1,5 +1,5 @@
 ---
-title: ESP32 Realy Board x8
+title: ESP32 Relay Board x8
 date-published: 2022-10-17
 type: relay
 standard: global
@@ -12,7 +12,7 @@ board: esp32
 
 This is a 8-relay board with an ESP32-WROOM-E.
 
-Each relay has COM+NO+NC exposed. Product descriptions don't seem to specify maximum load. Each relay supports 10Amp max load, acconding to the label.
+Each relay has COM+NO+NC exposed. Product descriptions don't specify maximum load. Each relay supports 10Amp max load, according to the label.
 
 The board can be powered either via 7-30VDC or via 5VDC (separate connectors). It draws about 100mA with the relays off, and just over 500mA with all the relays on.
 
@@ -29,7 +29,7 @@ This board has headers for every GPIO pin on its ESP32.
 | RX    | Exposed on board 3.3V level!                            |
 | GND   |                                                         |
 | GND   |                                                         |
-| GPIO0 | 3.3V level! (Connected to a push button for programing) |
+| GPIO0 | 3.3V level! (Connected to a push button for programming) |
 
 ## Basic Config
 
