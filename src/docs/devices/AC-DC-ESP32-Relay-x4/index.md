@@ -23,8 +23,8 @@ I bought it from: [eBay](https://www.ebay.com/itm/295164946172), but very simila
 
 This board has two double-row headers 10x2 for every GPIO pin on its ESP32 and a single row header for flashing.
 Programming can be done with 3.3V connected to 5V pin and GPIO0 connected to GND (via jumper or a push button).
-After flasing, if you want to test the board - it has to be powered properly via dedicated connectors, or via 5VDC applied to 5V ping.
-If you'll power it up with 3.3V on 5V pin - the MCU will brownout.
+After flashing, if you want to test the board - it has to be powered properly via dedicated connectors, or via 5VDC applied to 5V pin.
+If you power it up with 3.3V on 5V pin - the MCU will brownout.
 
 ### Programming header pinout
 
